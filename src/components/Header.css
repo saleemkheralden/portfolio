@@ -1,0 +1,51 @@
+.portfolio-header {
+
+	padding-top: 1.5rem !important;
+	padding-bottom: 1.5rem !important;
+	padding-left: 1rem !important;
+	padding-right: 1rem !important;
+	
+	border-bottom: 1px solid rgb(229 231 235);
+
+}
+
+.portfolio-header * {
+	padding: 0;
+	margin: 0;
+}
+
+.header-div {
+	
+	display: flex;
+	justify-content: space-between;
+	align-content: center;
+	align-items: center;
+
+}
+
+.portfolio-name {
+
+	font-weight: 700;
+	font-size: 1.5em;
+
+}
+
+.portfolio-nav-ul {
+	
+	display: flex;
+	list-style-type: none;
+	gap: 1rem;
+	
+}
+
+.portfolio-nav-ul * {
+	text-decoration: none;
+	color: rgb(31 41 55);
+	font-weight: 400;
+}
+
+
+.nav-link:hover {
+	color: rgb(37 99 235) !important;
+	transition: width .3s;
+}
