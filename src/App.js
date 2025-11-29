@@ -23,8 +23,6 @@ export default function Portfolio() {
 			</main>
 
 			<Footer />
-
 		</div>
-	)
+	);
 }
-
